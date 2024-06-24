@@ -8,8 +8,8 @@ import Providers from './Providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Dev Store',
-  description: 'Dev Store loja online',
+  title: 'tech Heim',
+  description: 'Loja de tecnologia',
   icons: {
     icon: '/logo-white.svg',
   },
