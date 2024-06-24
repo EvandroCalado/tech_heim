@@ -1,4 +1,4 @@
-import { IconRobot } from '@tabler/icons-react';
+import { IconCode } from '@/icons';
 import Link from 'next/link';
 import { Button } from '../ui/button';
 
@@ -8,7 +8,7 @@ export const Logo = () => {
   return (
     <Button size="icon" asChild>
       <Link href="/">
-        <IconRobot />
+        <IconCode color="#fff" />
       </Link>
     </Button>
   );
