@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Dev Store',
   description: 'Dev Store loja online',
   icons: {
-    icon: '/logo.svg',
+    icon: '/logo-white.svg',
   },
 };
 

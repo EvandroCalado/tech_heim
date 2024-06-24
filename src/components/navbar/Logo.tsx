@@ -1,15 +1,12 @@
-import { IconCode } from '@/icons';
+import { IconLogo } from '@/icons';
 import Link from 'next/link';
-import { Button } from '../ui/button';
 
 export interface LogoProps {}
 
 export const Logo = () => {
   return (
-    <Button size="icon" asChild>
-      <Link href="/">
-        <IconCode color="#fff" />
-      </Link>
-    </Button>
+    <Link href="/">
+      <IconLogo size={50} />
+    </Link>
   );
 };
