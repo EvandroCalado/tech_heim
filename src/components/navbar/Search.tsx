@@ -1,11 +1,11 @@
-import { FC } from 'react';
+import { Input } from '../ui/input';
 
-export interface SearchProps {}
-
-export const Search: FC<SearchProps> = () => {
+export const Search = () => {
   return (
-    <div>
-      <h1>Search</h1>
-    </div>
+    <Input
+      type="search"
+      placeholder="Buscar produto..."
+      className="dark:bg-muted max-w-xs"
+    />
   );
 };
