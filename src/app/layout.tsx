@@ -5,8 +5,8 @@ import '../styles/globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Template Next Tailwind',
-  description: 'Template next with tailwind',
+  title: 'Dev Store',
+  description: 'Dev Store loja online',
   icons: {
     icon: '/logo.svg',
   },
