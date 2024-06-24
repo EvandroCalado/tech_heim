@@ -14,26 +14,28 @@ export interface MenuMobileProps {}
 
 export const MenuMobile: FC<MenuMobileProps> = () => {
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button
-          variant="outline"
-          size="icon"
-          className="flex max-w-[100px] gap-4"
-        >
-          <IconMenu />
-        </Button>
-      </DropdownMenuTrigger>
+    <div className="md:hidden">
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button
+            variant="outline"
+            size="icon"
+            className="flex max-w-[100px] gap-4"
+          >
+            <IconMenu />
+          </Button>
+        </DropdownMenuTrigger>
 
-      <DropdownMenuContent className="w-40" align="start" sideOffset={10}>
-        {links.map((links) => (
-          <DropdownMenuItem key={links.href}>
-            <Link href={links.href} className="w-full capitalize">
-              {links.label}
-            </Link>
-          </DropdownMenuItem>
-        ))}
-      </DropdownMenuContent>
-    </DropdownMenu>
+        <DropdownMenuContent className="w-40" align="start" sideOffset={10}>
+          {links.map((links) => (
+            <DropdownMenuItem key={links.href}>
+              <Link href={links.href} className="w-full capitalize">
+                {links.label}
+              </Link>
+            </DropdownMenuItem>
+          ))}
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </div>
   );
 };
