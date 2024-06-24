@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import { Container } from '../global';
 import { CartButton } from './CartButton';
 import { DarkMode } from './DarkMode';
@@ -8,7 +7,7 @@ import { Search } from './Search';
 
 export interface NavbarProps {}
 
-export const Navbar: FC<NavbarProps> = () => {
+export const Navbar = () => {
   return (
     <nav className="border-b">
       <Container className="flex flex-col flex-wrap gap-4 py-8 sm:flex-row sm:items-center sm:justify-between">

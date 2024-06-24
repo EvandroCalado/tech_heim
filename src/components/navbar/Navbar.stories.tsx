@@ -1,5 +1,5 @@
-import { Meta, StoryFn } from '@storybook/react';
-import { Navbar, NavbarProps } from '.';
+import { Meta } from '@storybook/react';
+import { Navbar } from '.';
 
 export default {
   title: 'Components/Navbar/Navbar',
@@ -9,4 +9,4 @@ export default {
   },
 } as Meta;
 
-export const Default: StoryFn<NavbarProps> = () => <Navbar />;
+export const Default = () => <Navbar />;
