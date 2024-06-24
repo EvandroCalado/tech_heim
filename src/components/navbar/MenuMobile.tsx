@@ -10,9 +10,9 @@ import {
   DropdownMenuTrigger,
 } from '../ui/dropdown-menu';
 
-export interface LinksDropdownProps {}
+export interface MenuMobileProps {}
 
-export const LinksDropdown: FC<LinksDropdownProps> = () => {
+export const MenuMobile: FC<MenuMobileProps> = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>

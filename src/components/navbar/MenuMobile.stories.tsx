@@ -1,12 +1,12 @@
 import { Meta, StoryFn } from '@storybook/react';
-import { LinksDropdown, LinksDropdownProps } from '.';
+import { MenuMobile, MenuMobileProps } from '.';
 
 export default {
   title: 'Components/Navbar/LinksDropdown',
-  component: LinksDropdown,
+  component: MenuMobile,
   parameters: {
     layout: 'fullscreen',
   },
 } as Meta;
 
-export const Default: StoryFn<LinksDropdownProps> = () => <LinksDropdown />;
+export const Default: StoryFn<MenuMobileProps> = () => <MenuMobile />;

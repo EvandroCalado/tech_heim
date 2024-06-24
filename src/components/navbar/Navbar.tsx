@@ -1,8 +1,8 @@
 import { Container } from '../global';
 import { CartButton } from './CartButton';
 import { DarkMode } from './DarkMode';
-import { LinksDropdown } from './LinksDropdown';
 import { Logo } from './Logo';
+import { MenuMobile } from './MenuMobile';
 import { Search } from './Search';
 
 export interface NavbarProps {}
@@ -12,12 +12,12 @@ export const Navbar = () => {
     <nav className="border-b">
       <Container className="flex flex-col flex-wrap gap-4 py-8 sm:flex-row sm:items-center sm:justify-between">
         <Logo />
-        <Search />
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2">
+          <Search />
           <CartButton />
           <DarkMode />
-          <LinksDropdown />
+          <MenuMobile />
         </div>
       </Container>
     </nav>
