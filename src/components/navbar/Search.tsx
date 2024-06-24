@@ -1,11 +1,10 @@
-import { Input } from '../ui/input';
+import { IconSearch } from '@/icons';
+import { Button } from '../ui/button';
 
 export const Search = () => {
   return (
-    <Input
-      type="search"
-      placeholder="Buscar produto..."
-      className="dark:bg-muted max-w-xs"
-    />
+    <Button variant="outline" size="icon">
+      <IconSearch />
+    </Button>
   );
 };
