@@ -1,3 +1,4 @@
+import { Container } from '@/components/global';
 import { Navbar } from '@/components/navbar';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -21,10 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
-      <body className={`${inter.className} flex min-h-screen flex-col`}>
+      <body className={inter.className}>
         <Providers>
           <Navbar />
-          {children}
+          <Container className="py-20">{children}</Container>
         </Providers>
       </body>
     </html>
