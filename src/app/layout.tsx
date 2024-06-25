@@ -1,5 +1,5 @@
 import { Container } from '@/components/global';
-import { Navbar } from '@/components/navbar';
+import { Header } from '@/components/navbar';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '../styles/globals.css';
@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="pt-br" suppressHydrationWarning>
       <body className={inter.className}>
         <Providers>
-          <Navbar />
+          <Header />
           <Container className="py-20">{children}</Container>
         </Providers>
       </body>
