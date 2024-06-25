@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Notebook XPS 16",
+    "company": "Dell",
+    "description": "Dê vida aos seus projetos mais exigentes com o nosso notebook XPS mais avançado, equipado com processadores Intel® Core™ Ultra com IA integrada, tudo envolto em um design premium.",
+    "featured": true,
+    "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/16-9640/media-gallery/silver/touch/notebook-laptop-xps-16-9640-t-silver-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=612&qlt=100,1&resMode=sharp2&size=612,402&chrss=full",
+    "price": 19.999,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Notebook Inspiron 15",
+    "company": "Dell",
+    "description": "O novo Inspiron 15 é tão elegante por fora quanto eficiente por dentro. Contando com processadores Intel® de 13ª geração, você pode concluir sua lista de tarefas num piscar de olhos.",
+    "featured": true,
+    "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3530-intel/media-gallery/black/notebook-inspiron-15-3530-nt-plastic-black-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full",
+    "price": 2.799,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Notebook Gamer G15",
+    "company": "Dell",
+    "description": "Jogue do seu jeito, seja quem você for, esteja onde estiver. Use um notebook com uma estética moderna durante a sua jornada para o topo dos rankings. Personalize a aparência do notebook controlando a iluminação do teclado RGB opcional de quatro zonas, gerenciado pelo novo Alienware Command Center (disponível com Windows).",
+    "featured": true,
+    "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/g-series/g15-5530/media-gallery/gray/non-touch/coral/notebook-laptop-g15-5530-gray-gallery-1-v2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=554&qlt=100,1&resMode=sharp2&size=554,402&chrss=full",
+    "price": 5.197,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Workstation Precision 5490",
+    "company": "Dell",
+    "description": "Esta workstation Precision incorpora até 35% de conteúdo de plástico reciclado pós-consumo em vários componentes, incluindo a borda do LCD, as proteções para cabos e a estrutura do teclado.Atender aos padrões ambientais demonstra como nossos produtos cumprem com os padrões de eficiência no uso de energia e outros padrões abrangentes relacionados ao clima. Esta workstation tem certificação ENERGY STAR® 8.0, certificação TCO de 9ª geração e certificação EPEAT Gold com Climate+.",
+    "featured": false,
+    "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/workstations/mobile-workstations/precision/5490/media-gallery/workstation-precision-14-5490-gray-gallery-2.psd?fmt=pjpg&pscan=auto&scl=1&hei=402&wid=563&qlt=100,1&resMode=sharp2&size=563,402&chrss=full",
+    "price": 29.999,
+    "clerkId": "clerkId"
+  }
+]
