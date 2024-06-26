@@ -1,8 +1,8 @@
+import { CartButton, CartButtonProps } from '@/components/header';
 import { Meta, StoryFn } from '@storybook/react';
-import { CartButton, CartButtonProps } from '.';
 
 export default {
-  title: 'Components/Navbar/CartButton',
+  title: 'Components/Header/CartButton',
   component: CartButton,
 } as Meta;
 

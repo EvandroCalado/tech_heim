@@ -1,8 +1,8 @@
+import { MenuMobile, MenuMobileProps } from '@/components/header';
 import { Meta, StoryFn } from '@storybook/react';
-import { MenuMobile, MenuMobileProps } from '.';
 
 export default {
-  title: 'Components/Navbar/MenuMobile',
+  title: 'Components/Header/MenuMobile',
   component: MenuMobile,
 } as Meta;
 

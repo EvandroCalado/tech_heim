@@ -1,8 +1,8 @@
+import { Search } from '@/components/header';
 import { Meta } from '@storybook/react';
-import { Search } from '.';
 
 export default {
-  title: 'Components/Navbar/Search',
+  title: 'Components/Header/Search',
   component: Search,
 } as Meta;
 

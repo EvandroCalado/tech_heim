@@ -1,8 +1,8 @@
+import { Header } from '@/components/header';
 import { Meta } from '@storybook/react';
-import { Header } from '.';
 
 export default {
-  title: 'Components/Navbar/Header',
+  title: 'Components/Header/Header',
   component: Header,
   parameters: {
     layout: 'fullscreen',

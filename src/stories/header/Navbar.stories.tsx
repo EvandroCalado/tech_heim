@@ -1,8 +1,8 @@
+import { Navbar } from '@/components/header';
 import { Meta } from '@storybook/react';
-import { Navbar } from '.';
 
 export default {
-  title: 'Components/Navbar/Navbar',
+  title: 'Components/Header/Navbar',
   component: Navbar,
 } as Meta;
 

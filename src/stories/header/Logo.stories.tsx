@@ -1,8 +1,8 @@
+import { Logo } from '@/components/header';
 import { Meta } from '@storybook/react';
-import { Logo } from '.';
 
 export default {
-  title: 'Components/Navbar/Logo',
+  title: 'Components/Header/Logo',
   component: Logo,
 } as Meta;
 

@@ -1,8 +1,8 @@
+import { DarkMode, DarkModeProps } from '@/components/header';
 import { Meta, StoryFn } from '@storybook/react';
-import { DarkMode, DarkModeProps } from '.';
 
 export default {
-  title: 'Components/Navbar/DarkMode',
+  title: 'Components/Header/DarkMode',
   component: DarkMode,
 } as Meta;
 
