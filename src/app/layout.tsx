@@ -1,5 +1,5 @@
 import { Container } from '@/components/global';
-import { Header } from '@/components/navbar';
+import { Header } from '@/components/header';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '../styles/globals.css';
