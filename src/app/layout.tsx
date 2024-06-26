@@ -1,4 +1,3 @@
-import { Container } from '@/components/global';
 import { Header } from '@/components/header';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -25,7 +24,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>
           <Header />
-          <Container className="py-20">{children}</Container>
+          {children}
         </Providers>
       </body>
     </html>
