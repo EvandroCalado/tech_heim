@@ -1,9 +1,6 @@
 import { Container } from '@/components/global';
-import { FC } from 'react';
 
-export interface AboutProps {}
-
-const About: FC<AboutProps> = () => {
+const About = () => {
   return (
     <section>
       <Container className="my-20 space-y-8">
