@@ -1,4 +1,5 @@
 import { Container } from '../global';
+import { Separator } from '../ui/separator';
 import { CartButton } from './CartButton';
 import { DarkMode } from './DarkMode';
 import { Logo } from './Logo';
@@ -8,7 +9,7 @@ import { Search } from './Search';
 
 export const Header = () => {
   return (
-    <header className="border-b">
+    <header>
       <Container className="flex items-center justify-between gap-4 py-8">
         <Logo />
 
@@ -21,6 +22,8 @@ export const Header = () => {
           <MenuMobile />
         </div>
       </Container>
+
+      <Separator className="mx-auto rounded-full bg-gradient-to-r from-primary-foreground via-primary to-primary-foreground px-4" />
     </header>
   );
 };
