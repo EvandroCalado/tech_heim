@@ -10,7 +10,7 @@ import { Search } from './Search';
 export const Header = () => {
   return (
     <header>
-      <Container className="flex items-center justify-between gap-4 py-8">
+      <Container className="flex items-center justify-between gap-4 py-4">
         <Logo />
 
         <Navbar />
