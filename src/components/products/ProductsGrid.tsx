@@ -13,7 +13,7 @@ export interface ProductsGridProps {
 
 export const ProductsGrid: FC<ProductsGridProps> = ({ products }) => {
   return (
-    <div className="grid gap-4 pt-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="grid gap-4 pt-12 md:grid-cols-2 lg:grid-cols-3">
       {products.map((product) => {
         const { name, price, image } = product;
         const productId = product.id;
@@ -22,7 +22,7 @@ export const ProductsGrid: FC<ProductsGridProps> = ({ products }) => {
         return (
           <article key={productId} className="group relative">
             <Link href={`/products/${productId}`}>
-              <Card className="transform border-none shadow-none transition-shadow duration-300 group-hover:shadow-md">
+              <Card className="transform border-none shadow-none transition-shadow duration-300 group-hover:shadow-xl">
                 <CardContent className="flex flex-col justify-center p-4">
                   <div className="relative h-64 w-full overflow-hidden rounded md:h-48">
                     <Image
