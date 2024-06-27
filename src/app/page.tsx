@@ -1,5 +1,6 @@
-import { Container } from '@/components/global';
+import { Container, LoadingContainer } from '@/components/global';
 import { FeaturedProducts, Hero } from '@/components/home';
+import { Suspense } from 'react';
 
 export default function Home() {
   return (
@@ -7,7 +8,9 @@ export default function Home() {
       <Hero />
 
       <Container>
-        <FeaturedProducts />
+        <Suspense fallback={<LoadingContainer />}>
+          <FeaturedProducts />
+        </Suspense>
       </Container>
     </>
   );
