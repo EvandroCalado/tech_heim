@@ -5,7 +5,6 @@ import { DarkMode } from './DarkMode';
 import { Logo } from './Logo';
 import { MenuMobile } from './MenuMobile';
 import { Navbar } from './Navbar';
-import { Search } from './Search';
 
 export const Header = () => {
   return (
@@ -16,7 +15,6 @@ export const Header = () => {
         <Navbar />
 
         <div className="flex items-center gap-4">
-          <Search />
           <CartButton />
           <DarkMode />
           <MenuMobile />
