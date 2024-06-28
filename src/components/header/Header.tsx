@@ -1,4 +1,5 @@
 import { Container } from '../global';
+import { Button } from '../ui/button';
 import { Separator } from '../ui/separator';
 import { CartButton } from './CartButton';
 import { DarkMode } from './DarkMode';
@@ -17,6 +18,7 @@ export const Header = () => {
         <div className="flex items-center gap-4">
           <CartButton />
           <DarkMode />
+          <Button>Entrar</Button>
           <MenuMobile />
         </div>
       </Container>
