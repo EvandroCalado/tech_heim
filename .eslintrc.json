@@ -11,8 +11,7 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
+    "plugin:@next/next/recommended",
     "plugin:storybook/recommended"
   ],
   "parser": "@typescript-eslint/parser",
