@@ -17,16 +17,16 @@ import { ProductsList } from './ProductsList';
 
 export interface ProductsContainerProps {
   layout?: 'list' | 'grid';
-  brand?: string;
   search?: string;
+  company?: string;
 }
 
 export const ProductsContainer: FC<ProductsContainerProps> = async ({
   layout,
-  brand,
   search,
+  company,
 }) => {
-  const products = await fetchAllProducts();
+  const products = await fetchAllProducts({ search, company });
 
   const totalProducts = products.length;
   const searchQuery = search ? `&search=${search}` : '';
@@ -92,7 +92,7 @@ export const ProductsContainer: FC<ProductsContainerProps> = async ({
       {/* FILTERS */}
       <div className="flex gap-4">
         <div className="flex-1">
-          <ProductsFilters layout={layout} search={search} brand={brand} />
+          <ProductsFilters products={products} layout={layout} />
         </div>
 
         {/* PRODUCTS */}
