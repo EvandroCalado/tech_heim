@@ -31,9 +31,10 @@ export const Hero: FC<HeroProps> = () => {
 
                   <div className="flex items-center gap-2 text-lg font-semibold md:text-xl xl:text-3xl 2xl:text-5xl">
                     <h2 className="text-blue-950 dark:text-zinc-500">
-                      &quot;Junte-se a
+                      &quot;<span>Junte-se a </span>
+                      <span className="text-orange-500">revolução digital</span>
+                      &quot;
                     </h2>
-                    <h2 className="text-orange-500">revolução digital&quot;</h2>
                   </div>
 
                   <Button
