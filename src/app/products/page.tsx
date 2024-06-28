@@ -5,19 +5,19 @@ import { FC } from 'react';
 interface ProductsContainerProps {
   searchParams?: {
     layout?: 'list' | 'grid';
-    brand?: string;
     search?: string;
+    company?: string;
   };
 }
 
 const ProductsPage: FC<ProductsContainerProps> = ({ searchParams }) => {
   const layout = searchParams?.layout || 'grid';
-  const brand = searchParams?.brand || '';
   const search = searchParams?.search || '';
+  const company = searchParams?.company || '';
 
   return (
     <Container className="my-20">
-      <ProductsContainer layout={layout} search={search} brand={brand} />
+      <ProductsContainer layout={layout} search={search} company={company} />
     </Container>
   );
 };
