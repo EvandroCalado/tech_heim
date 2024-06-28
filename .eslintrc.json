@@ -46,7 +46,8 @@
         "react/prop-types": "off",
         "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/ban-ts-comment": "warn",
-        "jsx-a11y/label-has-associated-control": "off"
+        "jsx-a11y/label-has-associated-control": "off",
+        "@typescript-eslint/no-explicit-any": "off"
       }
     }
   ]
