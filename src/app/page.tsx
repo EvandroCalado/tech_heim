@@ -1,6 +1,5 @@
 import { Container, LoadingContainer } from '@/components/global';
-import { FeaturedProducts, Hero } from '@/components/home';
-import { CategoriesProducts } from '@/components/home/CategoriesProducts';
+import { CategoriesProducts, FeaturedProducts, Hero } from '@/components/home';
 import { Suspense } from 'react';
 
 export default function Home() {
